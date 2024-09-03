@@ -5,13 +5,10 @@ ENV PYTHONUNBUFFERED=1
 
 WORKDIR /app
 
-
 COPY requirements.txt /app/
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . /app/
 
-RUN make to-test
+RUN python tests/test_script.py
 
-# Expose a port (if needed)
-# EXPOSE 8000
