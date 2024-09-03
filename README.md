@@ -13,6 +13,28 @@ This project is to demonstarte how to create a standard scaffolding along with d
 - `tests/`: Contains the unit tests for the project.
 - `requirements.txt`: Lists the Python dependencies.
 - `Makefile`: Defines common tasks like installing dependencies, running tests, linting, and running docker.
-- `.devcontainer/`: Contains VS Code configuration for CI/CD.
+- `.devcontainer/`: Contains `Dockerfile` and VS Code configuration.
+- `.github/workflows/`: Contians CI/CD workflows for GitHub.
+
+## Project Setup
+### 1. Clone the Repository
+
+Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/nogibjj/arko_bhattacharya_week1.git
+cd arko_bhattacharya_week1
+```
+### 2. Dockerize
+
+Build and Run the Docker image:
+
+```bash
+docker build -f .devcontainer/Dockerfile -t <image-name> .
+docker run -it --rm -v $(pwd):/app <image-name> /bin/sh
+```
+
+
+
 
 
