@@ -18,6 +18,9 @@ clean:
 dist-clean: clean
 	rm -rf $(VENV)
 
+test: install
+	$(VENV)/bin/$(PYTHON) -m unittest $(SRC)/test_script.py -v
+
 run: install
 	$(VENV)/bin/$(PYTHON) $(SRC)/main.py
 
