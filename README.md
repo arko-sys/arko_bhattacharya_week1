@@ -25,6 +25,9 @@ Clone the repository to your local machine:
 git clone https://github.com/nogibjj/arko_bhattacharya_week1.git
 cd arko_bhattacharya_week1
 ```
+![image](https://github.com/user-attachments/assets/6f4c2022-de01-4bb1-953e-3e5abd962457)
+
+
 ### 2. Dockerize
 
 Build and Run the Docker image:
@@ -33,9 +36,10 @@ Build and Run the Docker image:
 docker build -f .devcontainer/Dockerfile -t <image-name> .
 docker run -it --rm -v $(pwd):/app <image-name> /bin/sh
 ```
+![image](https://github.com/user-attachments/assets/c608288f-93a9-413c-89aa-b2541d4e9baf)
 
-## GitHub Ci/Cd Setup
-- `.github/workflows/`: Contians CI/CD workflows for GitHub.
+## GitHub CI/CD Setup
+- `.github/workflows/`: Contians CI/CD workflows for GitHub, which triggers when pushing code to the GitHub repo.
 ![image](https://github.com/user-attachments/assets/bb697bc9-6578-48d6-872c-d2087a443e66)
   
 
