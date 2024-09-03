@@ -36,6 +36,7 @@ docker run -it --rm -v $(pwd):/app <image-name> /bin/sh
 
 ## GitHub Ci/Cd Setup
 - `.github/workflows/`: Contians CI/CD workflows for GitHub.
+![image](https://github.com/user-attachments/assets/bb697bc9-6578-48d6-872c-d2087a443e66)
   
 
 
