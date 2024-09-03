@@ -1,0 +1,18 @@
+{
+    "version": "2.0",
+    "name": "Python Development Container",
+    "dockerFile": "Dockerfile",
+    "context": ".",
+    "settings": {
+        "python.pythonPath": "/usr/local/bin/python",
+        "python.formatting.provider": "black",
+        "python.linting.pylintEnabled": true,
+        "python.linting.enabled": true
+    },
+    "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+    ],
+    "postCreateCommand": "pip install --no-cache-dir -r requirements.txt",
+    "remoteUser": "vscode"
+}
