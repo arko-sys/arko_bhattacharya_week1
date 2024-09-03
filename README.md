@@ -6,6 +6,8 @@ This project is to demonstarte how to create a standard scaffolding along with d
 - Add two 'numpy' arrays and store it in a third array
 - Create a 'pandas' dataframe to store the aforementioned arrays
 - Convert the dataframe to a '.csv' file.
+![image](https://github.com/user-attachments/assets/e1c744a5-6d48-40a9-b0ba-59b5a72f85a0)
+
 
 ## Project Structure
 
