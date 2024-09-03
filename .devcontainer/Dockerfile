@@ -11,4 +11,3 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . /app/
 
 RUN python tests/test_script.py
-
