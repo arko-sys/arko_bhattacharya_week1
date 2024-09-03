@@ -10,7 +10,7 @@ def create_df(arr1, arr2, arr3):
     return pd.DataFrame({"Array 1": arr1, "Array 2": arr2, "Array 3": arr3})
 
 
-def df_to_csv(df, filename="output.csv"):
+def df_to_csv(df, filename):
     df.to_csv(filename, index=False)
     return filename
 
