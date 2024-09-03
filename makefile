@@ -38,7 +38,11 @@ run:
 docker-build:
 	docker build -f $(DOCKERFILE) -t $(IMAGE_NAME) .
 
+docker-run:
+	docker run -it --rm -v $(pwd):/app project-scaffolding-image /bin/bash
+
 to-test: clean-dist install format lint test
 
 to-run: clean-dist install format lint test run
 
+docker: docker-build docker-run
