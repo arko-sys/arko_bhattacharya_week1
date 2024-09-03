@@ -34,6 +34,10 @@ docker build -f .devcontainer/Dockerfile -t <image-name> .
 docker run -it --rm -v $(pwd):/app <image-name> /bin/sh
 ```
 
+## GitHub Ci/Cd Setup
+- `.github/workflows/`: Contians CI/CD workflows for GitHub.
+  
+
 
 
 
