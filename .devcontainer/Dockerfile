@@ -11,8 +11,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . /app/
 
-RUN pip install pylint black
-
 RUN make to-test
 
 # Expose a port (if needed)
