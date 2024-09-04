@@ -1,6 +1,6 @@
 # Python Template
 
-This project is to demonstarte how to create a standard scaffolding along with dockerizing the project and setting up a CI/CD process.
+This project is to demonstrate how to create a standard scaffolding along with dockerizing the project and setting up a CI/CD process.
 
 ## Project Function
 - Add two 'numpy' arrays and store it in a third array
