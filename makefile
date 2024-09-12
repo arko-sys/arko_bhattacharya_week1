@@ -14,7 +14,7 @@ install: venv
 	$(VENV)/bin/$(PIP) install -r requirements.txt
 
 format:
-	$(VENV)/bin/$(FORMAT) $(SRC)/*.py $(TEST)/*.py
+	$(VENV)/bin/$(FORMAT) $(SRC)/*.py
 
 lint:
 	$(VENV)/bin/$(LINT) $(SRC)/*.py
